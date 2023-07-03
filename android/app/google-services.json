@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "41902604701",
+    "project_id": "encplus",
+    "storage_bucket": "encplus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41902604701:android:f6de13d01f0007a689ef74",
+        "android_client_info": {
+          "package_name": "com.example.dynamic_harvest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41902604701-tl312qb1ahh5g0a69mugdtsbqn1ckjr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW5CKxkp15WHr62BY6-hHIc5tDHQfLGfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41902604701-tl312qb1ahh5g0a69mugdtsbqn1ckjr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41902604701:android:546fbf30db5df63c89ef74",
+        "android_client_info": {
+          "package_name": "com.example.encplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41902604701-tl312qb1ahh5g0a69mugdtsbqn1ckjr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW5CKxkp15WHr62BY6-hHIc5tDHQfLGfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41902604701-tl312qb1ahh5g0a69mugdtsbqn1ckjr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41902604701:android:e94e420aa2610b4c89ef74",
+        "android_client_info": {
+          "package_name": "com.example.nyimbo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41902604701-tl312qb1ahh5g0a69mugdtsbqn1ckjr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW5CKxkp15WHr62BY6-hHIc5tDHQfLGfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41902604701-tl312qb1ahh5g0a69mugdtsbqn1ckjr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

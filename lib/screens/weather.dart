@@ -19,11 +19,11 @@ class _WeatherPageState extends State<WeatherPage> {
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-          SliverAppBar(
+          const SliverAppBar(
             backgroundColor: Color.fromARGB(123, 0, 0, 1),
             automaticallyImplyLeading: false,
             centerTitle: true,
-            title: const Text(
+            title: Text(
               'Weather & Information',
               style: kMyTextStyle,
             ),
@@ -36,12 +36,46 @@ class _WeatherPageState extends State<WeatherPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
+                  const Text(
                     'Current Weather',
                     style: kLargeTextStyle,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 16,
+                  ),
+                  Container(
+                    padding: const EdgeInsets.all(16.0),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(16.0),
+                      color: const Color.fromARGB(123, 0, 0, 1),
+                    ),
+                    height: 170,
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: const [Text('', style: kMediumTextStyle)],
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 32,
+                  ),
+                  const Text(
+                    'Weekly Weather Forecast',
+                    style: kLargeTextStyle,
+                  ),
+                  const SizedBox(
+                    height: 16,
+                  ),
+                  Container(
+                    padding: const EdgeInsets.all(16.0),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(16.0),
+                      color: const Color.fromARGB(123, 0, 0, 1),
+                    ),
+                    height: 170,
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: const [Text('', style: kMediumTextStyle)],
+                    ),
                   ),
                 ],
               ),

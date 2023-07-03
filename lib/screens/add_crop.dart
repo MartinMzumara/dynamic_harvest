@@ -35,12 +35,64 @@ class _AddCropsPageState extends State<AddCropsPage> {
               padding: const EdgeInsets.all(16.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
-                  Text(
+                children: [
+                  const Text(
                     'Add here',
                     style: kLargeTextStyle,
                   ),
-                  SizedBox(
+                  const SizedBox(
+                    height: 8,
+                  ),
+                  const Text(
+                    'Enter Crop',
+                    style: kNormalTextStyle,
+                  ),
+                  const SizedBox(
+                    height: 16,
+                  ),
+                  TextFormField(
+                    autofocus: true,
+                    textInputAction: TextInputAction.next,
+                    decoration: const InputDecoration(
+                      hintText: 'Enter Crop',
+                      labelStyle: TextStyle(
+                        color: Colors.white,
+                      ),
+                      border: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          color: Colors.white,
+                        ),
+                      ),
+                      // hintText: 'Crop Variant'
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 16,
+                  ),
+                  const Text(
+                    'Crop Variant',
+                    style: kNormalTextStyle,
+                  ),
+                  const SizedBox(
+                    height: 16,
+                  ),
+                  TextFormField(
+                    autofocus: true,
+                    textInputAction: TextInputAction.next,
+                    decoration: const InputDecoration(
+                      hintText: 'Crop Variant',
+                      labelStyle: TextStyle(
+                        color: Colors.white,
+                      ),
+                      border: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          color: Colors.white,
+                        ),
+                      ),
+                      // hintText: 'Crop Variant'
+                    ),
+                  ),
+                  const SizedBox(
                     height: 16,
                   ),
                 ],

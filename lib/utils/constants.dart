@@ -16,6 +16,11 @@ const kLargeTextStyle = TextStyle(
   fontWeight: FontWeight.w300,
 );
 
+const kMediumTextStyle = TextStyle(
+  fontSize: 20,
+  fontWeight: FontWeight.w300,
+);
+
 const kMyTextStyle = TextStyle(
   color: Colors.white,
   fontFamily: 'Helvetica',
@@ -23,3 +28,7 @@ const kMyTextStyle = TextStyle(
 );
 
 const kBackgroundColor = Color(0xff34425a);
+
+const kSelectedIcon = Color(0xff1aa0ff);
+
+const kUnselectedIcon = Color(0xffe6f4ff);
